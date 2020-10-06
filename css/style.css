@@ -1,18 +1,13 @@
+/* MODIFICHE PADDING E MARGIN CONTAINER-FLUID e row */
 
-
-/* debug */
-
-[class*="col-"] {
-  /* background-color: lightblue; */
-  height: 200px;
-  border: 1px solid black;
+.container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
-
-/* debug */
-
-.margin-top {
-  margin-top: 10px;
+.row {
+  margin: 0;
+  padding: 0;
 }
 
 /* impostazioni sfondi e centratura header e footer */
@@ -24,65 +19,71 @@
   background-color: rgb(58, 84, 109);
 }
 
-.sfondo-verde {
+.sfondo_verde {
   background-color: rgb(26, 188, 156);
 }
 
 /* header */
-
-/* nav sx */
-#home {
+#home_ .navbar-default{
+  background-color: rgb(58, 84, 109);
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0px;
   color: white;
-  text-align: center;
+  padding-left: 50px;
 }
 
-/* nav dx */
-
-#list {
-  text-align: center;
-  padding-top: 20px;
+#home_ .navbar-header {
+  margin-left: 15px;
+  margin-right: 0;
+  color: white;
 }
 
-a {
-  text-decoration: none;
+#home_ .navbar-default .navbar-brand {
   color: white;
-  margin-right: 20px;
+}
+
+#home_ .navbar-default .navbar-nav>li>a {
+  color: white;
 }
 
 /* sezione start */
 
-.start {
+/* specifiche hr */
+.bordo_ {
+  text-align: center;
+  width: 10%;
+  display: inline-block;
+  border:2px solid black;
+}
+
+.bianco {
+  border: 2px solid white;
+}
+/* fine specifiche hr */
+
+.start_ {
   color: white;
   text-align: center;
+  padding: 20px 0;
+}
+
+.start_ > img {
+  height: 150px;
 }
 
 /* sezione img */
-.img-text {
+.img_text {
   text-align: center;
 }
 
-#red {
-  background-color: rgb(186, 75, 99);
+.img_ {
+  text-align: center;
 }
 
-#green {
-  background-color: rgb(30, 164, 182);
-}
-
-#dark {
-  background-color: rgb(20, 15, 15);
-}
-
-#lightblue {
-  background-color: rgb(28, 131, 193);
-}
-
-#blue {
-  background-color: rgb(14, 56, 181);
-}
-
-#beige {
-  background-color: rgb(204, 178, 163);
+.img_ > img {
+  width: 400px;
+  height: 292px;
 }
 
 /* about */
@@ -95,11 +96,14 @@ a {
 .ptext {
   color: white;
 }
+
+/* bottone download */
 .bottone {
-  margin-top: 20px;
+  margin: 20px;
   text-align: center;
 }
-.btn-default {
+
+.bottone .btn-default {
   background-color: rgb(26, 188, 156);
   border: 1px solid white;
   color: white;
@@ -109,4 +113,88 @@ a {
 
 #contatti {
   text-align: center;
+}
+
+#form_contatti .form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#form_contatti .btn {
+  margin-top: 10px 0;
+}
+
+/* bottono send */
+.bottone2 {
+  margin: 20px;
+}
+
+.bottone2 .btn-default {
+  background-color: rgb(26, 188, 156);
+  border: 1px solid white;
+  color: white;
+}
+
+/* footer */
+footer {
+  color: white;
+  text-align: center;
+}
+
+/* sezione superiore */
+.info_ {
+  padding: 20px 0;
+}
+
+.info_ span {
+  display: block;
+  font-size: 15px;
+}
+
+.info_ p {
+  display: inline-block;
+  font-size: 15px;
+}
+
+a[href="#start"] {
+  text-decoration: none;
+  color: rgb(34, 161, 143);
+}
+
+.fa {
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+/* sezione inferiore */
+#Copyright_ {
+  display: block;
+  margin: 20px 0;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .sotto {
+    margin-bottom: 30px;
+  }
+}
+
+/* large */
+@media only screen and (min-width : 1200px) {
+
+  .img_ > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .sopra {
+  margin-bottom: 10px;
+  }
+
+  .sotto {
+  margin-bottom: 30px;
+  }
 }

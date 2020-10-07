@@ -33,17 +33,21 @@
 }
 
 /* header */
+#home_ {
+  background-color: rgb(58, 84, 109);
+}
+
 #home_ .navbar-default{
   background-color: rgb(58, 84, 109);
   border-radius: 0;
   border: none;
   margin-bottom: 0px;
   color: white;
-  padding-left: 50px;
 }
 
 #home_ .navbar-header {
   margin-left: 15px;
+  text-align: center;
   margin-right: 0;
   color: white;
 }

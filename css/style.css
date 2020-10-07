@@ -1,14 +1,14 @@
 /* MODIFICHE PADDING E MARGIN CONTAINER-FLUID e row */
 
-.container-fluid {
+/* .container-fluid {
   margin: 0;
   padding: 0;
-}
+} */
 
-.row {
+/* .row {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* classe e id per distanziare blocchi */
 .margine_inferiore {
@@ -135,10 +135,6 @@
   border-radius: 0;
   border: none;
   border-bottom: 1px solid #ccc;
-}
-
-#form_contatti .btn {
-  margin-top: 10px 0;
 }
 
 /* bottono send */

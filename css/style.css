@@ -10,6 +10,15 @@
   padding: 0;
 }
 
+/* classe e id per distanziare blocchi */
+.margine_inferiore {
+  margin-bottom: 20px;
+}
+
+#descrizione_ {
+  margin-top: 20px;
+}
+
 /* impostazioni sfondi e centratura header e footer */
 .sfondo-blu {
   background-color: rgb(44, 62, 80);
@@ -50,12 +59,15 @@
 /* sezione start */
 
 /* specifiche hr */
+
 .bordo_ {
   text-align: center;
   width: 10%;
   display: inline-block;
   border:2px solid black;
+  margin-bottom: 0;
 }
+
 
 .bianco {
   border: 2px solid white;
